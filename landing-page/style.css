@@ -8,6 +8,7 @@ body {
    padding: 20px;
    background-color: #1F2937;
    color: #F9FAF8;
+   padding-bottom: 90px;
 }
 .Logo {
     color: #F9FAF8;
@@ -135,7 +136,7 @@ ul {
     align-items: center;
     justify-content: center;
     color: #F9FAF8;
-    padding: 30px 350px 30px;
+    padding: 15px 300px 15px;
     background-color: #3882f6;
     border-radius: 8px;
 }
@@ -170,11 +171,15 @@ a {
 p {
     color: #e6e6e6;
     margin: 2px;
-    padding: 0;
+    padding: 4px 0px 10px;
 }
 
 h3, h1 {
     margin: 2px;
     padding: 0;
     color:#F9FAF8
+}
+.text {
+    color:#8d8d8d;
+    padding: 10px 0px 0px;
 }
