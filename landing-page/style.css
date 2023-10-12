@@ -1,6 +1,5 @@
 body {
-    text-align: center;
-
+    margin: 30px;
 }
 
 img {
@@ -9,14 +8,40 @@ img {
 }
 
 .header {
-
-
+    padding: 60px;
 }
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.container-1 {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    margin: 20px;
+}
+
+
 
 .title {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 32px;
+    text-align: center;
 }
 .container {
     display: flex;
@@ -26,4 +51,5 @@ img {
 
 .info {
     max-width: 200px;
+    text-align: center;
 }
