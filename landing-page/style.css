@@ -2,13 +2,17 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif
 }
 .header { 
    padding: 20px;
    background-color: #1F2937;
    color: #F9FAF8;
 }
-
+.Logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
 .header-content {
     margin-left: 190px;
     margin-right: 190px;
@@ -34,13 +38,15 @@ ul {
     gap: 30px
 }
 .header-text {
-    background-color: rgb(233, 61, 207);
     padding: 30px;
 }
 
 .sign-up {
     background-color: #3882f6;
-
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 25px 7px
 }
 
 
@@ -68,8 +74,8 @@ ul {
 }
 
 .image {
-    width: 100px;
-    height:100px;
+    width: 150px;
+    height:150px;
     border-radius: 10px;
 }
 .info {
@@ -84,7 +90,7 @@ ul {
     padding: 90px;
     color: #1F2937;
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
 
 }
 
@@ -117,6 +123,7 @@ ul {
     background-color: #3882f6;
     color: #F9FAF8;
     margin: 30px;
+    padding: 7px 25px 7px;
     border-radius: 10px;
     border:2px solid #F9FAF8;
 }
@@ -134,3 +141,15 @@ ul {
     color: #F9FAF8;
     padding: 30px;
 }
+
+
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+p {
+    color: #e6e6e6;
+}
+
