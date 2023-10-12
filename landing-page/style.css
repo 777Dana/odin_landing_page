@@ -26,18 +26,21 @@ ul {
     gap: 16px;
 }
 
-.header-text {
-    margin: 30px;
-}
 
 .hero {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px
 }
+.header-text {
+    background-color: rgb(233, 61, 207);
+}
+
+
 .adventure {
     display: flex;
-    width:100px;
+    padding: 30px red;
     height: 200px;
     border-radius: 300px;
 }
