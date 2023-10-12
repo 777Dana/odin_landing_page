@@ -35,6 +35,12 @@ ul {
 }
 .header-text {
     background-color: rgb(233, 61, 207);
+    padding: 30px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+
 }
 
 
@@ -99,7 +105,7 @@ ul {
 
 .action {
     display: flex;
-    color: #1F2937;
+    color: #F9FAF8;
     justify-content: space-around;
     margin: 170px;
     margin-top: 90px;
@@ -107,9 +113,12 @@ ul {
     background-color: #3882f6;
 }
 
-button {
+.sign-up2 {
     background-color: #3882f6;
+    color: #F9FAF8;
     margin: 30px;
+    border-radius: 10px;
+    border:2px solid #F9FAF8;
 }
 
 .background {
